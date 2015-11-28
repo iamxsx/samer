@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/me"
+            android:title="个人中心" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/info"
+            android:title="最近消息" />
+        <item
+            android:id="@+id/black_list"
+            android:icon="@drawable/black_list"
+            android:title="黑名单" />
+        <item
+            android:id="@+id/hot_news"
+            android:icon="@drawable/hot"
+            android:title="校园公告" />
+        <item
+            android:id="@+id/search_score"
+            android:icon="@drawable/search_score"
+            android:title="查成绩" />
+        <item
+            android:id="@+id/selfie"
+            android:icon="@drawable/menu_camera"
+            android:title="自拍专区" />
+        <item
+            android:id="@+id/club"
+            android:icon="@drawable/club"
+            android:title="社团" />
+        <item
+            android:id="@+id/topic"
+            android:icon="@drawable/menu_topic"
+            android:title="热门话题" />
+        <item
+            android:id="@+id/event"
+            android:icon="@drawable/club"
+            android:title="校内活动" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/setting"
+                android:title="设置" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="注销" />
+        </menu>
+    </item>
+
+</menu>

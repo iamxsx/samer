@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_all"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_toolbar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.xsx.samer.widget.EmoticonsEditText
+                android:id="@+id/et_edit_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/base_edit_input"
+                android:hint="请输入想发布信息的详细内容"
+                android:imeOptions="flagNoExtractUi"
+                android:minHeight="@dimen/et_text_height"
+                android:padding="5dp"
+                android:textSize="12dp" />
+
+            <LinearLayout
+                android:id="@+id/layout_pics"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/btn_more"
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/iv_bg"
+                    android:src="@drawable/camera" />
+            </LinearLayout>
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+             >
+        </ProgressBar>
+    </FrameLayout>
+
+</LinearLayout>
