@@ -31,4 +31,4 @@ samer 是一款基于 Android 平台的大学生社交app
  
  ![Alt text](http://chuantu.biz/t5/45/1483427335x3085597554.png)
  
- ![Alt text](http://chuantu.biz/t5/45/1483427380x3085597554.png)
+ ![Alt text](http://chuantu.biz/t5/45/1483427500x3085597554.png)
